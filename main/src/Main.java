@@ -13,10 +13,10 @@ public class Main {
         System.out.println("Professor: Brenno Pimenta");
 
         //Fraze de boas vindas
-        System.out.println("Olá! Bem-vindo(a) ao Quiz sobre Velozes e Furiosos. ");
+        System.out.println("Seja Bem-vindo(a)!");
 
         //Dizendo que será respondido 15 perguntas sobre Velozes e Furiosos
-        System.out.println("A partir de agora você irá responder um quiz de 15 questões.");
+        System.out.println("Aproveite o desafio! São 15 questões com alternativas de multipla escolha.");
 
         System.out.println("-----------------------------------------------------------------");
 //
