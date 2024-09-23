@@ -21,8 +21,6 @@ public class Main {
         System.out.println("-----------------------------------------------------------------");
 //
 //
-
-
         Questao q1 = new Questao();
         q1.pergunta = "01 - Qual filme da franquia Velozes e Furiosos foi gravado um roubo de cofre?";
         q1.opcaoA = "A) Velozes e furiosos 5";
