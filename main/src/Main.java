@@ -207,7 +207,7 @@ public class Main {
         q14.isCorreta(resposta);
 //
         Questao q15 = new Questao();
-        q15.pergunta = "15 - Em qual filme Toretto e resgatado do onibus da penitencaria?";
+        q15.pergunta = "15 - Em qual filme da franquia Toretto e resgatado do onibus da penitencaria?";
         q15.opcaoA = "A) Velozes e furiosos 8";
         q15.opcaoB = "B) Velozes e furiosos 7";
         q15.opcaoC = "C) Veloses e furiosos 9";
