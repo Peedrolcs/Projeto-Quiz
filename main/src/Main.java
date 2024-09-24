@@ -103,13 +103,13 @@ public class Main {
         q6.isCorreta(resposta);
 //
         Questao q7 = new Questao();
-        q7.pergunta = "07 - Quem matou a letty?";
+        q7.pergunta = "07 - Quem supostamente matou a letty?";
         q7.opcaoA = "A) Marco";
         q7.opcaoB = "B) Braga";
-        q7.opcaoC = "C) Oconner";
-        q7.opcaoD = "D) Fenix";
+        q7.opcaoC = "C) Fenix";
+        q7.opcaoD = "D) Hobbs";
         q7.opcaoE = "E) Carter";
-        q7.correta = "D";
+        q7.correta = "C";
 
         q7.escrevaQuestao();
         resposta = q7.leiaResposta();
