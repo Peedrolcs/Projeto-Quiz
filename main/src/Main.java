@@ -17,6 +17,7 @@ public class Main {
         System.out.println("-----------------------------------------------------------------");
 //
 //
+
         Questao q1 = new Questao();
         q1.pergunta = "01 - Qual filme da franquia Velozes e Furiosos foi gravado um roubo de cofre?";
         q1.opcaoA = "A) Velozes e furiosos 5";
@@ -29,7 +30,6 @@ public class Main {
         q1.escrevaQuestao();
         String resposta = q1.leiaResposta();
         q1.isCorreta(resposta);
-
 
 //
         Questao q2 = new Questao();
@@ -44,7 +44,6 @@ public class Main {
         q2.escrevaQuestao();
         resposta = q2.leiaResposta();
         q2.isCorreta(resposta);
-
 
 //
         Questao q3 = new Questao();
