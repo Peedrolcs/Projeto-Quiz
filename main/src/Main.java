@@ -168,7 +168,7 @@ public class Main {
         q11.isCorreta(resposta);
 //
         Questao q12 = new Questao();
-        q12.pergunta = "12 - Quem que distrai alvos das ações?";
+        q12.pergunta = "12 - Quem que tem mais labia e entra e sai de qualquer lugar?";
         q12.opcaoA = "A) Tej";
         q12.opcaoB = "B) Toretto";
         q12.opcaoC = "C) Roman";
