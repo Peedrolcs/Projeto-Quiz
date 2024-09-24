@@ -77,7 +77,7 @@ public class Main {
 
 //
         Questao q5 = new Questao();
-        q5.pergunta = "05 - Qual carro mais lento que o Brian dirigiu?";
+        q5.pergunta = "05 - Qual carro mais lento que o Brian dirigiu de todos que ele tinha?";
         q5.opcaoA = "A) Nissan Skyline R34";
         q5.opcaoB = "B) Mine van";
         q5.opcaoC = "C) Dodge Charger";
