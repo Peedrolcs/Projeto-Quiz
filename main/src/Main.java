@@ -5,16 +5,12 @@ public class Main {
 
         //Nome da Faculdade
         System.out.println("Faculdade: Centro Universitario Alfredo Nacer");
-
         //Nome do aluno
         System.out.println("Aluno: Pedro Lucas Ramos Pereira");
-
         //Nome do professor
         System.out.println("Professor: Brenno Pimenta");
-
         //Fraze de boas vindas
         System.out.println("Seja Bem-vindo(a)!");
-
         //Dizendo que será respondido 15 perguntas sobre Velozes e Furiosos
         System.out.println("Aproveite o desafio! São 15 questões com alternativas de multipla escolha.");
 
