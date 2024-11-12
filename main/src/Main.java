@@ -1,6 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
+        int acertos = 0;
+        int erros = 0;
+        int totalq = 15;
+
         System.out.println("---------------------------------------------------------------");
 
         //Nome da Faculdade
@@ -29,7 +33,12 @@ public class Main {
 
         q1.escrevaQuestao();
         String resposta = q1.leiaResposta();
-        q1.isCorreta(resposta);
+
+        if (q1.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
 
 //
         Questao q2 = new Questao();
@@ -43,11 +52,16 @@ public class Main {
 
         q2.escrevaQuestao();
         resposta = q2.leiaResposta();
-        q2.isCorreta(resposta);
+
+        if (q2.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
 
 //
         Questao q3 = new Questao();
-        q3.pergunta = "03 - Qual carro que o Brian usou na primeira corrida do filme +Velozes +Furiosos";
+        q3.pergunta = "03 - Qual carro que o Brian usou na primeira corrida do filme +Velozes +Furiosos?";
         q3.opcaoA = "A) Toyota Supra";
         q3.opcaoB = "B) Lancer Evo";
         q3.opcaoC = "C) Nissan Skyline GTR R34";
@@ -57,8 +71,12 @@ public class Main {
 
         q3.escrevaQuestao();
         resposta = q3.leiaResposta();
-        q3.isCorreta(resposta);
 
+        if (q3.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
 
 //
         Questao q4 = new Questao();
@@ -72,8 +90,12 @@ public class Main {
 
         q4.escrevaQuestao();
         resposta = q4.leiaResposta();
-        q4.isCorreta(resposta);
 
+        if (q4.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
 
 //
         Questao q5 = new Questao();
@@ -87,7 +109,13 @@ public class Main {
 
         q5.escrevaQuestao();
         resposta = q5.leiaResposta();
-        q5.isCorreta(resposta);
+
+        if (q5.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
+
 //
         Questao q6 = new Questao();
         q6.pergunta = "06 - Qual o primeiro nome do Toretto?";
@@ -100,7 +128,13 @@ public class Main {
 
         q6.escrevaQuestao();
         resposta = q6.leiaResposta();
-        q6.isCorreta(resposta);
+
+        if (q6.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
+
 //
         Questao q7 = new Questao();
         q7.pergunta = "07 - Quem supostamente matou a letty?";
@@ -113,7 +147,13 @@ public class Main {
 
         q7.escrevaQuestao();
         resposta = q7.leiaResposta();
-        q7.isCorreta(resposta);
+
+        if (q7.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
+
 //
         Questao q8 = new Questao();
         q8.pergunta = "08 - Qual o segundo nome do Brian?";
@@ -126,7 +166,13 @@ public class Main {
 
         q8.escrevaQuestao();
         resposta = q8.leiaResposta();
-        q8.isCorreta(resposta);
+
+        if (q8.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
+
 //
         Questao q9 = new Questao();
         q9.pergunta = "09 - Como se chama o filho do Toretto?";
@@ -139,7 +185,13 @@ public class Main {
 
         q9.escrevaQuestao();
         resposta = q9.leiaResposta();
-        q9.isCorreta(resposta);
+
+        if (q9.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
+
 //
         Questao q10 = new Questao();
         q10.pergunta = "10 - Qual o nome da hacker do avião?";
@@ -152,7 +204,13 @@ public class Main {
 
         q10.escrevaQuestao();
         resposta = q10.leiaResposta();
-        q10.isCorreta(resposta);
+
+        if (q10.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
+
 //
         Questao q11 = new Questao();
         q11.pergunta = "11 - Quem organizava as corridas nos primeiros filmes?";
@@ -165,7 +223,13 @@ public class Main {
 
         q11.escrevaQuestao();
         resposta = q11.leiaResposta();
-        q11.isCorreta(resposta);
+
+        if (q11.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
+
 //
         Questao q12 = new Questao();
         q12.pergunta = "12 - Quem que tem mais labia e entra e sai de qualquer lugar?";
@@ -178,7 +242,13 @@ public class Main {
 
         q12.escrevaQuestao();
         resposta = q12.leiaResposta();
-        q12.isCorreta(resposta);
+
+        if (q12.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
+
 //
         Questao q13 = new Questao();
         q13.pergunta = "13 - Em qual filme Toretto foi preso?";
@@ -191,7 +261,13 @@ public class Main {
 
         q13.escrevaQuestao();
         resposta = q13.leiaResposta();
-        q13.isCorreta(resposta);
+
+        if (q13.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
+
 //
         Questao q14 = new Questao();
         q14.pergunta = "14 - Quem tinha ciumes do Brian com a mia?";
@@ -204,7 +280,13 @@ public class Main {
 
         q14.escrevaQuestao();
         resposta = q14.leiaResposta();
-        q14.isCorreta(resposta);
+
+        if (q14.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
+
 //
         Questao q15 = new Questao();
         q15.pergunta = "15 - Em qual filme da franquia Toretto e resgatado do onibus da penitencaria?";
@@ -217,8 +299,22 @@ public class Main {
 
         q15.escrevaQuestao();
         resposta = q15.leiaResposta();
-        q15.isCorreta(resposta);
+
+        if (q15.isCorreta(resposta)) {
+            acertos++;
+        } else {
+            erros++;
+        }
+
 //
+
+        double totalp = (double) acertos / (double) totalq * 100.0;
+        System.out.println("----------------------------------------------------");
+        System.out.println("        Parabéns você respondeu todas as perguntas!       ");
+        System.out.println("Total de acertos: " + acertos);
+        System.out.println("Total de erros: " + erros);
+        System.out.println("Total de acertos em porcentagem: " + String.format("%.2f", totalp));
+        System.out.println("------------------------------------------------------");
 
     }
 }
